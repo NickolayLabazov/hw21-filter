@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300italic,300,400italic);
+
+.selected{
+  background-color: grey;
+  color: white;
+}
+
+.noSelected{
+  background-color: white;
+  color: black;
+}
+
+.selected, .noSelected{
+  border: 1px solid blanchedalmond;
+  border-radius: 0;
+  margin: 5px;
+  min-width: 50px;
+  cursor: pointer;
+}
+
+.toolbar{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.projects{
+   display: flex; 
+   flex-wrap: wrap;
+}
+
+.card{
+  margin: 5px;
+}
+
